@@ -17,24 +17,24 @@
 .headerTitleContainer {
     display: flex;
     align-items: center;
-    margin-left: 14px;
     text-decoration: none;
 }
 
 .headerTitle {
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 28px;
     display: flex;
     align-items: flex-end;
     color: #242424;
+    font-family: Helvetica, sans-serif;
 }
 
 .headerIcon {
-    height: 32px;
-    width: 32px;
-    margin-left: 36px;
+    height: 55px;
+    width: 100px;
+    margin-left: 30px;
 }
 
 .shareButtonContainer {

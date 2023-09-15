@@ -61,8 +61,8 @@
 }
 
 .chatIcon {
-    height: 62px;
-    width: 62px;
+    height: 90px;
+    width: 162px;
 }
 
 .chatMessageStream {
@@ -196,6 +196,13 @@
     border: 1px solid #D1D1D1;
     border-radius: 4px;
     z-index: 1;
+}
+
+.responsiveButtons {
+    @media (min-width: 480px) {
+        position: absolute;
+        left: -38px;
+    }
 }
 
 .stopGeneratingContainer {
