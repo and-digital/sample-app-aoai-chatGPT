@@ -199,9 +199,10 @@
 }
 
 .responsiveButtons {
-    @media (min-width: 480px) {
+    @media (max-width: 1000px) {
         position: absolute;
         left: -38px;
+        top: 0px;
     }
 }
 

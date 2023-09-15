@@ -10,6 +10,8 @@ import { parseAnswer } from "./AnswerParser";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import supersub from 'remark-supersub'
+import rehypeHighlight from 'rehype-highlight'
+import rehypeRaw from 'rehype-raw'
 
 interface Props {
     answer: AskResponse;
@@ -63,6 +65,8 @@ export const Answer = ({
                     <ReactMarkdown
                         linkTarget="_blank"
                         remarkPlugins={[remarkGfm, supersub]}
+                        // @ts-ignore:next-line
+                        rehypePlugins={[rehypeRaw, rehypeHighlight]}
                         children={parsedAnswer.markdownFormatText}
                         className={styles.answerText}
                     />
