@@ -615,7 +615,7 @@ const Chat = () => {
                                         },
                                         root: {
                                             color: '#FFFFFF',
-                                            background: "radial-gradient(109.81% 107.82% at 100.1% 90.19%, #bd0f15 33.63%, #c32d3f 70.31%, #dd8d9c 100%)"
+                                            background: "#bd0f15"
                                         },
                                         rootDisabled: {
                                             background: "#BDBDBD"
@@ -635,7 +635,7 @@ const Chat = () => {
                                         },
                                         root: {
                                             color: '#FFFFFF',
-                                            background: disabledButton() ? "#BDBDBD" : "radial-gradient(109.81% 107.82% at 100.1% 90.19%, #bd0f15 33.63%, #c32d3f 70.31%, #dd8d9c 100%)",
+                                            background: disabledButton() ? "#BDBDBD" : "#bd0f15",
                                             cursor: disabledButton() ? "" : "pointer"
                                         },
                                     }}
