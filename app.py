@@ -24,7 +24,7 @@ def favicon():
     return app.send_static_file('favicon.ico')
 
 @app.route("/lib/<path:path>")
-def assets(path):
+def lib(path):
     return send_from_directory("static/lib", path)
 @app.route("/assets/<path:path>")
 def assets(path):
