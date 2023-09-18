@@ -32,6 +32,13 @@
   <body>
     <div id="root"></div>
     
-    <script>hljs.highlightAll();</script>
+    <script>function highlightCode() {
+        hljs.highlightAll();
+        setTimeout(1000, function (){
+            highlightCode();
+        })
+    }
+    highlightCode();
+    </script>
   </body>
 </html>
