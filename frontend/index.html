@@ -32,9 +32,9 @@
     <script type="module" src="/src/index.tsx"></script>
     <script>function highlightCode() {
         hljs.highlightAll();
-        setTimeout(1000, function (){
+        setTimeout(function (){
             highlightCode();
-        })
+        },1000)
     }
     highlightCode();
     </script>
