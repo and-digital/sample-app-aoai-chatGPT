@@ -30,6 +30,13 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/index.tsx"></script>
-    <script>hljs.highlightAll();</script>
+    <script>function highlightCode() {
+        hljs.highlightAll();
+        setTimeout(1000, function (){
+            highlightCode();
+        })
+    }
+    highlightCode();
+    </script>
   </body>
 </html>
