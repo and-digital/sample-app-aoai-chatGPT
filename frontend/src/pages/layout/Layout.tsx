@@ -75,11 +75,13 @@ const Layout = () => {
                 >
                     <Stack horizontal verticalAlign="center">
                         <Link to="/" className={styles.headerTitleContainer}>
+                            <div className={styles.logoContainer}>
                             <img
                                 src={AndGPTLogo}
                                 className={styles.headerIcon}
                                 aria-hidden="true"
                             />
+                            </div>
                         </Link>
                     </Stack>
                     <Stack horizontal tokens={{ childrenGap: 4 }}>

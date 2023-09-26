@@ -32,9 +32,14 @@
 }
 
 .headerIcon {
-    height: 55px;
-    width: 100px;
+    height: 25px;
     margin-left: 30px;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    height: 55px;
 }
 
 .shareButtonContainer {
